@@ -5,11 +5,18 @@ This [Pelican](https://github.com/getpelican/pelican) plugin adds a reader for M
 As the well-known static site generator [Jekyll](https://github.com/jekyll/jekyll) uses Markdown files with YAML metadata, this eases migration from Jekyll to Pelican.
 Also, YAML metadata allows for easier specification of more complex metadata, such as nested lists or dictionaries.
 
+Dependencies
+------------
+
+(to be installed via `pip`)
+
+* `Markdown`
+* `PyYAML`
+
 Installation
 ------------
 
-Copy the `md_yaml` directory to the `plugins` directory of your Pelican project (or whatever directory you specified for plugins in Pelican's `PLUGIN_PATHS` setting) and add
-`'md_yaml'` to the list of plugins (Pelican setting `PLUGINS`) of your project.
+Copy the `md_yaml` directory to the `plugins` directory of your Pelican project (or whatever directory you specified for plugins in Pelican's `PLUGIN_PATHS` setting) and add `'md_yaml'` to the list of plugins (Pelican setting `PLUGINS`) of your project.
 
 Usage
 -----
