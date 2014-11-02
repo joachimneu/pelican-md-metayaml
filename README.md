@@ -10,8 +10,8 @@ Dependencies
 
 (to be installed via `pip`)
 
-* `Markdown`
-* `PyYAML`
+* [`Markdown`](https://pypi.python.org/pypi/Markdown)
+* [`PyYAML`](https://pypi.python.org/pypi/PyYAML)
 
 Installation
 ------------
