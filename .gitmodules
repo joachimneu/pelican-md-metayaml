@@ -1,0 +1,3 @@
+[submodule "markdown_metayaml"]
+	path = markdown_metayaml
+	url = git@github.com:pR0Ps/markdown_metayaml.git
