@@ -1,0 +1,3 @@
+[submodule "markdown_metayaml"]
+	path = markdown_metayaml
+	url = https://github.com/teoric/python-markdown-yaml-meta-data.git
