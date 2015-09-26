@@ -16,10 +16,10 @@ Dependencies
 Installation
 ------------
 
-Clone this repo (and it's submodules) to the `plugins` directory of your Pelican project (or whatever directory you specified for plugins in Pelican's `PLUGIN_PATHS` setting) and add `'md_metayaml'` to the list of plugins (Pelican setting `PLUGINS`) of your project.
+Clone this repo (and its submodules) into a `pelican-md-metayaml` directory inside the `plugins` directory of your Pelican project (or whatever directory you specified for plugins in Pelican's `PLUGIN_PATHS` setting) and add `'pelican-md-metayaml'` to the list of plugins (Pelican setting `PLUGINS`) of your project. Or just use it as part of [`pelican-plugins`](https://github.com/getpelican/pelican-plugins).
 
-To make sure the submodule is included use `git clone --recursive [repo] [path]`
-Alternatively, you can clone normally, then run `git submodule update --init` to checkout the submodule
+To make sure the submodule is included, use `git clone --recursive [repo] [path]`.
+Alternatively, clone without `--recursive`, then run `git submodule update --init` to checkout the submodule.
 
 Usage
 -----
